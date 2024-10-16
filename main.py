@@ -1,4 +1,4 @@
-# Programmers:  Leif LaBianca, Megan
+# Programmers:  Leif LaBianca, Megan Wijdoogen
 # Course:  CS151, Professor Zee
 # Due Date:  Thursday October 17, 12:15
 # Programming Assignment:  Lab5
