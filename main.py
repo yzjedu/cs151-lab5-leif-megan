@@ -48,7 +48,7 @@ while continue_cycle:
                     account_balance = account_balance - withdraw_amount
                     print(f'Succesfully withdrawn {withdraw_amount} dollars.\nYour balance is now {account_balance} dollars.\n')
                     pass_thru = True
-                elif withdraw_amount > 0 and withdraw_amount <= account_balance:
+                elif withdraw_amount > 0 and withdraw_amount >= account_balance:
                     print(f'Your value cannot be more than your account balance ({account_balance}$). Please try again.')
                 else:
                     print('Your value cannot be zero or negative. Please try again.')
